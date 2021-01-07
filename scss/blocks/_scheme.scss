@@ -1,0 +1,14 @@
+.scheme {
+	margin-top: -80px;
+	padding: 50px 0px;
+	background: url(../img/scheme/SchemeBG.png) bottom right / contain no-repeat;
+	background-color: #fcf5f3;
+	text-align: left;
+	&__block {
+		min-height: 300px;
+		h3 {
+			font-size: 22px;
+			font-weight: bold;
+		}
+	}
+}

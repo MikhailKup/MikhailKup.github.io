@@ -1,0 +1,55 @@
+.price {
+	background: $pricebg;
+	&__header__btn {
+		margin: 35px 0px 0px 0px;
+	}
+	&__header__row {
+		margin: -50px 0px 0px 0px;
+	}
+	&__button {
+		text-align: right;
+	}
+	&__block {
+		min-height: 650px;
+		padding: 20px 20px;
+		margin: 20px 0px 0px 0px;
+		background: $bg-light;
+		text-align: center;
+		h4 {
+			margin: 30px 0px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		img {
+			display: inline-block;
+			margin: 0px 0px 20px 0px;
+			width: 100%;
+			min-width: 100%;
+		}
+	}
+	&__list {
+		list-style: none;
+		padding: 0;
+		min-height: 190px;
+		font-size: 17px;
+		line-height: 35px;
+		li {
+			text-align: left;
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: url(../img/icons/check.png) center / 100% no-repeat;
+				margin: 0px 15px 0px 0px;
+			}
+		}
+	}
+	&__tag {
+		display: inline-block;
+		margin: 0px 0px 20px 0px;
+		font-weight: bold;
+		font-size: 19px;
+		text-decoration: underline;
+	}
+}
